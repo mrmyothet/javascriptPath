@@ -1,0 +1,39 @@
+////////////////////////////////////////////////////////////////////
+
+// Creating a new Object 
+// (1) Just use the curly braces
+// var obj = {};
+
+// (2) Using Object.create
+// var nextObj = Object.create(Object.prototype); 
+
+// (3) Use the new keyword
+// var lastObj = new Object(); 
+
+////////////////////////////////////////////////////////////////////
+
+// Assigning Keys and Values 
+
+// (1) Dot Notation 
+/*
+var obj = {};
+obj.param = 'New Value'; 
+display(obj.param); 
+*/
+// (2) Square Bracket Notation 
+/*
+var obj = {};
+obj['param'] = 'New Value'; 
+display(obj['param']); 
+display(obj.param);
+// Dot Notation and Bracket Notation can use interchangable
+*/
+
+// one advantage of bracket notation 
+// bracket notation with variables 
+/*
+var obj = {};
+var val = 'value'; 
+obj[val] = 'New Value';
+display(obj[val]);
+*/
