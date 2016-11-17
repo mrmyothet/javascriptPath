@@ -49,3 +49,13 @@ var val = 'value';
 obj[val] = 'New Value';
 display(obj[val]);
 */
+
+Defining Properties 
+ECMAScript 5 introduces defineProperty
+
+Object.defineProperty(obj, 'name', {
+	value:'My Value', 
+	writable : true,
+	enumerable : true,
+	configurable : true
+})
