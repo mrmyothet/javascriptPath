@@ -1,3 +1,15 @@
+// Pratical Design Patterns in Javascript By Jonathan Mills
+
+//////////////////////// Types of Patterns ////////////////////////
+/*
+Creational                    Structural                Behaviour
+(1) Constructor               (1) Decorator             (1) Command
+(2) Module                    (2) Facade                (2) Mediator
+(3) Factory                   (3) Flyweight             (3) Observer
+(4) Singleton
+*/
+
+
 ////////////////////////////////////////////////////////////////////
 
 // Creating a new Object 
