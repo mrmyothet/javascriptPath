@@ -59,3 +59,58 @@ Object.defineProperty(obj, 'name', {
 	enumerable : true,
 	configurable : true
 })
+
+////////// ////////// ////////// ////////// /////////
+
+Creational Design Patterns
+Used to construct new Objects
+Adapting creation to the situation
+
+///// Constructor Patten /////
+// Use to create new objects with their own object scope
+// The new keyword 
+	(1) Creates a brand new object 
+	(2) Links to an object prototype
+	(3) Binds 'this' to the new object scope
+	(4) Implicity returns this
+	
+
+// Constructor Pattern
+// Create objects from functions
+
+function ObjectName(param1, param2){
+	this.param1 = param1;
+	this.param2 = param2;
+	this.toString = function(){
+		return this.param1 + ' ' + this.param2;
+	}
+}
+
+// Constructor Pattern 
+// Drawbacks 
+
+// the toString function is recreated for all objects 
+// if we create 4 objects, toString function is re-created all 4 times. 
+// it is unefficient 
+
+We have Prototype concept 
+An encapsulation of properties that an object links to 
+
+///// ///// ///// Transpile ///// ///// ///// 
+
+You can export Car class, transpile and require:
+
+// module js-models/lib/Car
+"use strict";
+
+export class Car {
+    constructor(color) {
+        this.color = color;
+    }
+}
+
+// node project
+var Car = require("js-models/lib/Car").Car;    
+var blueCar = new Car('blue');
+
+///// ///// ///// Transpile ///// ///// ///// 
