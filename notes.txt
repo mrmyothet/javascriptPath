@@ -127,7 +127,7 @@ plnkr.co/edit/LQepAH?p=preview
 ////////////////////////////////////////////////////////////////////
 
 
-//////////////////////// (1) Module Patten ////////////////////////
+//////////////////////// (2) Module Patten ////////////////////////
 Simple Way to Encapsulate Methods
 Creates a 'Toolbox' of functions to use
 
@@ -156,7 +156,13 @@ var Module = function(){
 }
 
 
+//////////////////////// (3) Factory Patten ////////////////////////
 
+A Factory Pattern is used to simplify object creation 
+
+Simplifies object creation
+Creating different objects based on need 
+Respository creation 
 
 
 
