@@ -66,7 +66,8 @@ Creational Design Patterns
 Used to construct new Objects
 Adapting creation to the situation
 
-///// Constructor Patten /////
+//////////////////////// (1) Constructor Patten ////////////////////////
+
 // Use to create new objects with their own object scope
 // The new keyword 
 	(1) Creates a brand new object 
@@ -124,3 +125,40 @@ var blueCar = new Car('blue');
 plnkr.co/edit/LQepAH?p=preview
 
 ////////////////////////////////////////////////////////////////////
+
+
+//////////////////////// (1) Module Patten ////////////////////////
+Simple Way to Encapsulate Methods
+Creates a 'Toolbox' of functions to use
+
+Module Pattern 
+Object Literal 
+
+var Module = {
+	method: function(){...}, 
+	nextMethod: fucntion(){...}
+}
+
+
+Module Patten 
+Wrap it in a function 
+
+var Module = function(){
+	var privateVar = 'I am private...' ;
+	return {
+		method: function(){
+		...
+		}, 
+		nextMethod: function(){
+		...
+		}
+	}
+}
+
+
+
+
+
+
+
+
